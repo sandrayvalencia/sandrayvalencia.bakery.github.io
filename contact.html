@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Sandra Valencia -->
+<html lang="en">
+<head>
+    <link rel= "stylesheet" href= "styles.css">
+    <title>Sweet Lane Bakery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <div id= "container">
+        <header>
+            <a href="index.html"><img src= "images/bakeryLogo.png" alt=""></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href= "index.html"> Home </a></li>
+                <li><a href= "about.html"> About Us </a></li>
+                
+                <li><a href= "nutrition.html"> Nutrition </a></li>
+                <li><a href= "contact.html"> Contact Us</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <h1>Have any question?<button type="button" onclick="alert('call us at (800) 555-5508. Thank you for visiting our website!')">Click Me!</button></h1> 
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+        
+                </form>
+                
+              </div>
+
+            <p>We are located at:<br>
+                4657 Main Court<br> 
+                Los Angeles, CA 90036</p>
+
+            <p>Phone Number</p>
+                <p> <span class="desktop">(800) 555-5508</span></p>
+                
+            <p>Email Address</p>
+            <p><a href="mailto:sweetlanebakery@club.net"
+                class="contact">sweetlanebakery@club.net</a></p>
+            
+        </main>
+        <footer>
+            &copy; Copyright 2022. All Rights Reserved.<br>
+            <a href="mailto:sweetlanebakery@club.net">sweetlanebakery@club.net</a>
+        </footer>
+    </div>
+</body>
+</html>
