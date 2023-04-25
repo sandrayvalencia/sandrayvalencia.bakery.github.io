@@ -71,8 +71,7 @@ main a {
 main p {
     background-image: url('images/cookies.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: cover;
+    
 }
 
 footer {
