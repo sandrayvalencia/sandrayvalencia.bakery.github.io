@@ -31,7 +31,7 @@ nav ul { padding: 0;
 }
 
 nav li {
-    background-color: purple; 
+    background-color: pink; 
     border-radius: 2em; 
     list-style-type: none; 
     margin: 0.3em;
@@ -61,7 +61,7 @@ main {
 }
 
 main a {
-    background-color: purple; 
+    background-color: pink; 
     border-radius: 1em;
     color: #FFFFFF; 
     font-weight: bold; 
@@ -95,7 +95,7 @@ input[type=text], select, textarea {
   
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: pink;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -151,7 +151,7 @@ input[type=text], select, textarea {
     }
     
     figure img {
-        background-color: #1D1D1C; 
+        background-color: pink; 
         display: inline;
         height: 8em;
         width: 28%;
@@ -181,7 +181,7 @@ input[type=text], select, textarea {
 @media only screen and (min-width: 830px) {
     
     #container {
-        background-color: #1D1D1C;
+        background-color: pink;
     }
     
     header {
@@ -227,7 +227,7 @@ input[type=text], select, textarea {
     }
     
     main {
-        background-color: #1D1D1C;
+        background-color: pink;
     }
     
     main p {
@@ -251,7 +251,7 @@ input[type=text], select, textarea {
     }
     
     body {
-        background-color: #FFFFFF;
+        background-color: pink;
     }
     
     footer {
